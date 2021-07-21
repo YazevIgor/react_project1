@@ -1,0 +1,35 @@
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+.app-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    background-color: #EDEEF0;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: "h" "c";
+    grid-gap: 1em;
+}
+.app-wrapper-content {
+    padding: 0;
+    margin: 0;
+    grid-area: c;
+
+}
+.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    background-color: #EDEEF0;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: "n c c";
+
+}
+.header{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: grid;
+}

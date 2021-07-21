@@ -1,0 +1,48 @@
+.wrapper {
+    display: grid;
+    grid-row: 1/6;
+    grid-template-rows: repeat(7,65px);
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+}
+
+.avatar img {
+    width: 230px;
+    height: 230px;
+    padding: 15px 15px 6px 15px;
+    border-radius: 18px;
+}
+
+.avatar {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    text-align: center;
+    grid-row: 1/6;
+}
+
+.avatar button {
+    border-radius: 5px;
+    background-color: #e7ecf3;
+    border: none;
+    width: 200px;
+    height: 30px;
+}
+.info {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    grid-row: 1/3;
+    padding: 5px 20px;
+}
+h3{
+    padding: 0;
+    margin: 0;
+}
+.contacts {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    grid-row: 3/7;
+    padding: 5px 20px;
+}
+input {
+
+}

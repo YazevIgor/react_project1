@@ -1,0 +1,22 @@
+.header{
+    grid-area: h;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 20% 50% 5% 25%;
+    align-items: center;
+
+}
+.header img{
+    width: 40px;
+    height: 40px;
+}
+
+.img {
+    grid-column: 3;
+    border-radius: 50%;
+
+}
